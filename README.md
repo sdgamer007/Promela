@@ -15,6 +15,7 @@ sudo apt-get install -y build-essential byacc flex graphviz
 cd $INSTALL_DIR/Spin-version-*/Src
 make
 sudo cp spin /usr/bin/
+#
 
 This is how you can execute a simple model written in Promela, the modeling language for Spin, from the command line:
 spin $INSTALL_DIR/Spin-version-*/Examples/hello.pml
